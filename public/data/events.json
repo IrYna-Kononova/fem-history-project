@@ -1,0 +1,19 @@
+[
+    { "year": "1848", "title": "Seneca Falls Convention", "description": "The first women’s rights convention.", "era": "First Wave", "region": "USA", "type": "Convention" },
+    { "year": "1851", "title": "Sojourner Truth's 'Ain't I a Woman?' Speech", "description": "A significant speech advocating for both abolition and women's rights.", "era": "First Wave", "region": "USA", "type": "Speech" },
+    { "year": "1869", "title": "National Woman Suffrage Association Founded", "description": "Founded by Susan B. Anthony and Elizabeth Cady Stanton.", "era": "First Wave", "region": "USA", "type": "Organization" },
+    { "year": "1893", "title": "New Zealand Grants Women the Right to Vote", "description": "New Zealand becomes the first self-governing country to grant women the right to vote.", "era": "First Wave", "region": "New Zealand", "type": "Legislation" },
+    { "year": "1920", "title": "19th Amendment", "description": "Women gain the right to vote in the US.", "era": "First Wave", "region": "USA", "type": "Legislation" },
+    { "year": "1949", "title": "The Second Sex Published", "description": "Simone de Beauvoir's influential book is published.", "era": "Second Wave", "region": "France", "type": "Publication" },
+    { "year": "1960", "title": "Introduction of the Birth Control Pill", "description": "The birth control pill becomes available, giving women greater control over their reproductive rights.", "era": "Second Wave", "region": "Global", "type": "Medical" },
+    { "year": "1963", "title": "The Feminine Mystique", "description": "Publication of Betty Friedan's book.", "era": "Second Wave", "region": "USA", "type": "Publication" },
+    { "year": "1966", "title": "National Organization for Women (NOW) Founded", "description": "Founded to advocate for equal rights for women.", "era": "Second Wave", "region": "USA", "type": "Organization" },
+    { "year": "1972", "title": "Title IX Enacted", "description": "A U.S. law that prohibits sex-based discrimination in federally funded education programs.", "era": "Second Wave", "region": "USA", "type": "Legislation" },
+    { "year": "1985", "title": "Alice Walker's 'The Color Purple' Wins the Pulitzer Prize", "description": "A significant achievement for African American women in literature.", "era": "Second Wave", "region": "USA", "type": "Literature" },
+    { "year": "1991", "title": "Anita Hill Testifies Before the Senate", "description": "Anita Hill's testimony during Clarence Thomas's confirmation hearings brings sexual harassment into the national spotlight.", "era": "Third Wave", "region": "USA", "type": "Legal" },
+    { "year": "2013", "title": "#MeToo Movement Begins", "description": "Tarana Burke starts the Me Too movement to support survivors of sexual violence.", "era": "Fourth Wave", "region": "Global", "type": "Movement" },
+    { "year": "2015", "title": "Women Allowed to Serve in All Combat Roles in U.S. Military", "description": "A historic policy change in the U.S. military.", "era": "Fourth Wave", "region": "USA", "type": "Policy" },
+    { "year": "2019", "title": "Ratification of the Istanbul Convention by Ukraine", "description": "Ukraine ratifies the Council of Europe Convention on preventing and combating violence against women and domestic violence.", "era": "Fourth Wave", "region": "Ukraine", "type": "Legislation" },
+    { "year": "2020", "title": "Germany Introduces New Law on Women's Quota in Boardrooms", "description": "Germany passes legislation requiring a minimum number of women on the boards of large companies.", "era": "Fourth Wave", "region": "Germany", "type": "Policy" }
+  ]
+  

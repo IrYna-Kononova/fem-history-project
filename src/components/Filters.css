@@ -1,0 +1,44 @@
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: 'Edu Australia VIC WA NT Hand', cursive;
+}
+
+.search-input, .filter-select, .search-button {
+  margin: 5px 0;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid rgb(54, 194, 206);
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.5rem;
+  background-color: rgb(230, 255, 247); /* Light Mint Green */
+  color: rgb(69, 53, 193); /* Deep Indigo */
+}
+
+.search-button {
+  background-color: rgb(119, 228, 200);
+  color: rgb(69, 53, 193);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: rgb(54, 194, 206);
+}
+
+.filter-select {
+  width: 85%;
+  font-size: 1.2rem;
+  background-color: rgb(230, 255, 247); /* Light Mint Green */
+  color: rgb(69, 53, 193); /* Deep Indigo */
+}
+
+.filter-selects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

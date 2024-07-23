@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Edu Australia VIC WA NT Hand', cursive;
+  color: rgb(69, 53, 193);
+  background-color: rgb(230, 255, 247);
+  font-size: 20px;
+}
+
+header {
+  background-color: rgb(69, 53, 193);
+  color: rgb(230, 255, 247);
+  padding: 20px 25px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1.5rem; 
+}
+
+nav a {
+  color: rgb(230, 255, 247);
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.3rem; 
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(71, 140, 207);
+  font-size: 3.5rem; 
+}
+
+h2 {
+  color: rgb(119, 228, 200);
+  font-size: 3rem; 
+}
+
+h3 {
+  color: rgb(119, 228, 200);
+  font-size: 2.5rem; 
+}
+
+  
