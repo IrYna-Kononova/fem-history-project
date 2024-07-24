@@ -2,8 +2,65 @@
   padding: 20px;
   text-align: center;
   background-color: rgb(230, 255, 247);
+  font-family: 'Edu Australia VIC WA NT Hand', cursive;
 }
 
+.resources-container h1 {
+  color: rgb(119, 228, 200);
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
 
+.resources-container ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resource-item {
+  background-color: rgb(71, 140, 207);
+  color: rgb(69, 53, 193);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.resource-item:hover {
+  transform: translateY(-5px);
+}
+
+.resource-item h2 {
+  font-size: 2rem;
+}
+
+.resource-item h3 {
+  font-size: 1.5rem;
+  color: rgb(230, 255, 247);
+}
+
+.resource-item p {
+  font-size: 1.2rem;
+}
+
+.resource-item a {
+  color: rgb(69, 53, 193);
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 10px;
+  transition: color 0.3s;
+  text-decoration: underline;
+}
+
+.resource-item a:hover {
+  color: rgb(230, 255, 247);
+}
+
+.resource-item i {
+  margin-right: 5px;
+}
 
   

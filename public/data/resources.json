@@ -1,8 +1,22 @@
 [
-    { "title": "The Feminine Mystique", "author": "Betty Friedan", "year": "1963" },
-    { "title": "A Room of One's Own", "author": "Virginia Woolf", "year": "1929" },
-    { "title": "Women, Race, & Class", "author": "Angela Davis", "year": "1981" },
-    { "title": "The Second Sex", "author": "Simone de Beauvoir", "year": "1949" },
-    { "title": "Gender Trouble", "author": "Judith Butler", "year": "1990" }
-  ]
+  {
+    "title": "Feminism is for Everybody",
+    "author": "bell hooks",
+    "link": "https://www.hugendubel.de/de/buch_kartoniert/bell_hooks-feminism_is_for_everybody-22539805-produkt-details.html",
+    "description": "A primer on feminist theory"
+  },
+  {
+    "title": "The Second Sex",
+    "author": "Simone de Beauvoir",
+    "link": "https://www.hugendubel.de/de/taschenbuch/simone_de_beauvoir-the_second_sex-23277373-produkt-details.html",
+    "description": "A foundational text in feminist philosophy"
+  },
+  {
+    "title": "We Should All Be Feminists",
+    "author": "Chimamanda Ngozi Adichie",
+    "link": "https://www.hugendubel.de/de/taschenbuch/chimamanda_ngozi_adichie-we_should_all_be_feminists-23178200-produkt-details.html",
+    "description": "An adaptation of the TEDx talk of the same name"
+  }
+]
+
   

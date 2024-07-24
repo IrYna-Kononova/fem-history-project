@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Resources.css';
+import { motion } from 'framer-motion';
 
 const Resources = () => {
     const [resources, setResources] = useState([]);
@@ -16,11 +17,19 @@ const Resources = () => {
             <h1>Feminist Literature Resources</h1>
             <ul>
                 {resources.map((resource, index) => (
-                    <li key={index}>
-                        <h3> <i className="fa-brands fa-pagelines"></i> {resource.title}</h3>
-                        <p>Author: {resource.author}</p>
-                        <p>Year: {resource.year}</p>
-                    </li>
+                    <motion.li key={index}
+                     initial={{ opacity: 0, y: 50 }}
+                     animate={{ opacity: 1, y: 0 }}
+                     transition={{ duration: 0.5, delay: index * 0.1 }}
+                     className="resource-item"
+                    >
+                        <h2>{resource.title}</h2>
+                        <h3>{resource.author}</h3>
+                        <p>{resource.description}</p>
+                        <a href={resource.link} target="_blank" rel="noopener noreferrer">
+                            <i className="fas fa-external-link-alt"></i> Learn More
+                        </a>
+                    </motion.li>
                 ))}
             </ul>
         </div>

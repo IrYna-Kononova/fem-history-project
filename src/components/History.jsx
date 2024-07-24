@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 import Filters from './Filters';
-import { motion } from 'framer-motion';
 import './History.css';
 
 const History = () => {
@@ -50,19 +51,20 @@ const History = () => {
         <h1>Feminist History Timeline</h1>
         <Filters searchTerm={searchTerm} setSearchTerm={setSearchTerm} filters={filters} setFilters={setFilters} />
         <button onClick={() => setSearchTerm(searchTerm)} className="search-button">Search</button>
-        <ul>
+        <VerticalTimeline>
             {filteredEvents.map((event, index) => (
-                <motion.li key={index}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.5 }}
+                <VerticalTimelineElement 
+                key={index}
+                date={event.year}
+                iconStyle={{ background: 'rgb(71, 140, 207)', color: '#fff' }}
+                icon={<i className="fa-solid fa-person"></i>}
                 >
-                    <h2>{event.title}</h2>
-                    <p>{event.year}</p>
+                    <h3 className="vertical-timeline-element-title">{event.title}</h3>
+                    <h4 className="vertical-timeline-element-subtitle">{event.era}</h4>
                     <p> {event.description}</p>
-                </motion.li>
+                </VerticalTimelineElement>
             ))}
-        </ul>
+        </VerticalTimeline>
     </div>
   );
 };
