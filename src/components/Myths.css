@@ -10,23 +10,53 @@ h1 {
   margin-bottom: 20px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.myths-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-li {
-  border-bottom: 1px solid rgb(54, 194, 206); 
-  padding: 10px 0;
-  margin: 10px 0;
+.myth-item {
+  display: flex;
+  align-items: center;
+  background-color: rgb(119, 228, 200);
+  color: rgb(69, 53, 193);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.myth-item:hover {
+  transform: translateY(-5px);
+  background-color: rgb(54, 194, 206);
+}
+
+.myth-content {
+  flex: 1;
+}
+
+.myth-content h3 {
+  color: rgb(71, 140, 207);
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.myth-content p {
+  color: rgb(71, 140, 207);
   font-size: 1.2rem;
+  font-weight: bolder;
 }
 
-h3 {
-  color: rgb(119, 228, 200);
+.icon {
+  padding: 0 20px;
 }
 
-p {
-  color: rgb(71, 140, 207); 
+.icon i {
+  font-size: 2rem;
+  color: rgb(71, 140, 207);
 }
+
   

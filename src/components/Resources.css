@@ -6,60 +6,65 @@
 }
 
 .resources-container h1 {
-  color: rgb(119, 228, 200);
-  font-size: 3rem;
+  color: rgb(71, 140, 207);
+  font-size: 3.5rem;
   margin-bottom: 20px;
 }
 
-.resources-container ul {
-  list-style-type: none;
-  padding: 0;
-  max-width: 800px;
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.resource-item {
-  background-color: rgb(71, 140, 207);
-  color: rgb(69, 53, 193);
-  padding: 20px;
-  margin: 20px 0;
+.resource-card {
+  background-color: rgb(54, 194, 206);
+  padding: 20px; 
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  list-style: none;
+  transition: transform 0.3s, background-color 0.3s;
 }
 
-.resource-item:hover {
+.resource-card:hover {
   transform: translateY(-5px);
+  background-color: rgb(71, 140, 207);
 }
 
-.resource-item h2 {
-  font-size: 2rem;
-}
-
-.resource-item h3 {
+.resource-card h2 {
   font-size: 1.5rem;
+  margin-bottom: 10px;
   color: rgb(230, 255, 247);
+
 }
 
-.resource-item p {
+.resource-card h3 {
   font-size: 1.2rem;
-}
-
-.resource-item a {
   color: rgb(69, 53, 193);
+  margin-bottom: 10px;
+}
+
+.resource-card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.resource-card a {
+  color: rgb(230, 255, 247);
   text-decoration: none;
-  font-size: 1.2rem;
-  display: inline-block;
-  margin-top: 10px;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
   transition: color 0.3s;
+}
+
+.resource-card a:hover {
+  color: rgb(69, 53, 193); 
   text-decoration: underline;
 }
 
-.resource-item a:hover {
-  color: rgb(230, 255, 247);
-}
-
-.resource-item i {
+.resource-card i {
   margin-right: 5px;
 }
 

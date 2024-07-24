@@ -16,20 +16,30 @@ const Myths = () => {
   return (
     <div className='myths-container'>
         <h1>Debunking Myths About Feminism</h1>
-        <ul>
+        <div className='myths-list'>
             {myths.map((myth, index) => (
-                <motion.li key={index}
+                <motion.div key={index}
+                className='myth-item'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 >
-                    <h3>Myth: {myth.myth}</h3>
-                    <p>Debunk: {myth.debunk}</p>
-                </motion.li>
+                    <div className='myth-content'>
+                        <h3>Myth</h3>
+                        <p>{myth.myth}</p>
+                    </div>
+                    <div className='icon'>
+                        <i className="fas fa-arrow-right"></i>
+                    </div>
+                    <div className='myth-content'>
+                        <h3>Debunk</h3>
+                        <p>{myth.debunk}</p>
+                    </div>
+                </motion.div>
             ))}
-        </ul>
+        </div>
     </div>
   );
 };

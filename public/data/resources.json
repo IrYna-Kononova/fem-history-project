@@ -6,6 +6,18 @@
     "description": "A primer on feminist theory"
   },
   {
+    "title": "A Room of One's Own",
+    "author": "Virginia Woolf",
+    "description": "An extended essay by Virginia Woolf",
+    "link": "https://example.com/room-of-ones-own"
+  },
+  {
+    "title": "Gender Trouble",
+    "author": "Judith Butler",
+    "description": "A book that introduced the concept of gender performativity",
+    "link": "https://example.com/gender-trouble"
+  },
+  {
     "title": "The Second Sex",
     "author": "Simone de Beauvoir",
     "link": "https://www.hugendubel.de/de/taschenbuch/simone_de_beauvoir-the_second_sex-23277373-produkt-details.html",
@@ -16,6 +28,36 @@
     "author": "Chimamanda Ngozi Adichie",
     "link": "https://www.hugendubel.de/de/taschenbuch/chimamanda_ngozi_adichie-we_should_all_be_feminists-23178200-produkt-details.html",
     "description": "An adaptation of the TEDx talk of the same name"
+  },
+  {
+    "title": "Bad Feminist",
+    "author": "Roxane Gay",
+    "description": "A collection of essays on feminism and social critique",
+    "link": "https://example.com/bad-feminist"
+  },
+  {
+    "title": "Feminism is for Everybody",
+    "author": "bell hooks",
+    "description": "A book that discusses the importance of feminism for everyone",
+    "link": "https://example.com/feminism-is-for-everybody"
+  },
+  {
+    "title": "How to Be a Woman",
+    "author": "Caitlin Moran",
+    "description": "A humorous book that discusses feminist issues",
+    "link": "https://example.com/how-to-be-a-woman"
+  },
+  {
+    "title": "Men Explain Things to Me",
+    "author": "Rebecca Solnit",
+    "description": "A collection of essays that sparked the term 'mansplaining'",
+    "link": "https://example.com/men-explain-things"
+  },
+  {
+    "title": "Sister Outsider",
+    "author": "Audre Lorde",
+    "description": "A collection of essays and speeches by Audre Lorde",
+    "link": "https://example.com/sister-outsider"
   }
 ]
 

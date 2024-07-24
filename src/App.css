@@ -15,11 +15,13 @@ header {
   font-size: 1.5rem; 
 }
 
+
 nav a {
   color: rgb(230, 255, 247);
   margin: 0 15px;
   text-decoration: none;
-  font-size: 1.3rem; 
+  text-transform: uppercase;
+  font-size: 1.3rem;
 }
 
 nav a:hover {
@@ -45,5 +47,7 @@ h3 {
   color: rgb(119, 228, 200);
   font-size: 2.5rem; 
 }
+
+
 
   

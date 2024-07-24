@@ -15,13 +15,13 @@ const Resources = () => {
     return (
         <div className="resources-container">
             <h1>Feminist Literature Resources</h1>
-            <ul>
+            <div className='resources-grid'>
                 {resources.map((resource, index) => (
                     <motion.li key={index}
                      initial={{ opacity: 0, y: 50 }}
                      animate={{ opacity: 1, y: 0 }}
                      transition={{ duration: 0.5, delay: index * 0.1 }}
-                     className="resource-item"
+                     className="resource-card"
                     >
                         <h2>{resource.title}</h2>
                         <h3>{resource.author}</h3>
@@ -31,7 +31,7 @@ const Resources = () => {
                         </a>
                     </motion.li>
                 ))}
-            </ul>
+            </div>
         </div>
     );
 };
