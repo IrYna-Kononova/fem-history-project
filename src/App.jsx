@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './components/Home';
-import History from './components/History';
-import Myths from './components/Myths';
-import Resources from './components/Resources';
+import Home from './components/Home/Home';
+import History from './components/History/History';
+import Myths from './components/Myths/Myths';
+import Resources from './components/Resources/Resources';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
 
