@@ -14,11 +14,11 @@ The Feminism Project aims to provide an engaging and educational experience arou
 ## Setup
 Clone the Repository:
 ```bash
-git clone https://github.com/your-username/feminism-project.git
+git clone https://github.com/your-username/fem-history-project.git
 ```
 Navigate to the Project Directory:
 ```bash
-cd feminism-project
+cd fem-history-project
 ```
 Install Dependencies:
 ```bash
