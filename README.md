@@ -12,19 +12,19 @@ The Feminism Project aims to provide an engaging and educational experience arou
 - **Node.js** (version 14.x or higher)
 - **npm** (Node package manager)
 ## Setup
-- Clone the Repository:
+Clone the Repository:
 ```bash
 git clone https://github.com/your-username/feminism-project.git
 ```
-- Navigate to the Project Directory:
+Navigate to the Project Directory:
 ```bash
 cd feminism-project
 ```
-- Install Dependencies:
+Install Dependencies:
 ```bash
 npm install
 ```
-- Start the Development Server:
+Start the Development Server:
 ```bash
 npm run dev
 ```
@@ -34,14 +34,14 @@ Navigate to http://localhost:3000 to view the application.
 ```
 
 ## Usage
-**Creating a Timeline**
+## Creating a Timeline
 - Navigate to the **History** section.
 - View the interactive timeline of feminist events.
 - Use filters to view specific eras or regions.
-**Exploring Myths**
+## Exploring Myths
 - Go to the **Myths** section.
 - Read about common myths and their rebuttals.
-**Accessing Literature**
+## Accessing Literature
 - Visit the **Resources** section.
 - Browse through the curated list of feminist literature.
 - Click on external links for more information.
