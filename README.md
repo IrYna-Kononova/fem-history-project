@@ -1,4 +1,4 @@
-# Feminism Project 🌸📚
+# Feminism Project 📚💡
 Welcome to the Feminism Project! This web application serves as a comprehensive resource for exploring the history of feminism, debunking myths, and accessing essential feminist literature. Its goal is to educate users and foster a deeper understanding of feminist movements and their societal impact.
 ## Introduction 📖
 The Feminism Project aims to provide an engaging and educational experience around the topic of feminism. Users can explore key historical events, address common misconceptions, and access a curated selection of feminist literature.
